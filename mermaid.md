@@ -1,4 +1,4 @@
-```mermaid
+mermaid
 sequenceDiagram
     participant dotcom
     participant iframe
@@ -9,4 +9,4 @@ sequenceDiagram
     iframe->>dotcom: iframe ready
     dotcom->>iframe: set mermaid data on iframe
     iframe->>iframe: render mermaid
-```
+
